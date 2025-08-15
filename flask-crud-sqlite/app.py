@@ -37,7 +37,7 @@ def get_all_users():
     return usuarios
 
 # ======== Rotas ========
-# Página inicial: ver usuários e formulário de cadastro
+# Página inicial: formulário de cadastro
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
